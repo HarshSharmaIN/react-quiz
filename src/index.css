@@ -334,3 +334,13 @@ header h1 {
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 600px) {
+  #summary h2 {
+    font-size: 2rem;
+  }
+  #summary-stats {
+    gap: 1rem;
+    width: 103%;
+  }
+}
